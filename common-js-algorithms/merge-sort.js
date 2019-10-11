@@ -1,5 +1,7 @@
 'use strict'
 
+# Uses Divide and Concur, so basically divide the array into sections and sort then combine them again 
+
 let mergeSortAlgorithm = (unsortedArray) => {
     const middle = Math.floor((unsortedArray.length)/2);
     const leftElements  = unsortedArray.slice(0, middle);
