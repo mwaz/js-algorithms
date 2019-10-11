@@ -5,17 +5,22 @@
 let  bubbleSort = (arrayInput) => {
     let arrayLength = arrayInput.length;
     let tempp;
+    let swapped;
 
-for(let j =0; j< arrayLength; j++){
-   for(let i =0; i< arrayLength; i++){
+   do {
+       swapped = false;
+       for(let i =0; i< arrayLength; i++){
        if(arrayInput[i] > arrayInput[i+1] ){
            tempp = arrayInput[i]; 
            arrayInput[i] = arrayInput[i+1];
            arrayInput[i+1] = tempp;
+           swapped = true;
        }
    }
 }
+while(swapped)
    return arrayInput
-};
+} 
+
 
 bubbleSort([1,6, 7, 3, 5, 2, 9])
