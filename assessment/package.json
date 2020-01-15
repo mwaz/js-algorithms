@@ -1,0 +1,22 @@
+{
+  "name": "cypress-end-to-end-testing",
+  "version": "1.0.0",
+  "description": "an end to end cypress application",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwaz/algorithms.git"
+  },
+  "author": "waweru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwaz/algorithms/issues"
+  },
+  "homepage": "https://github.com/mwaz/algorithms#readme",
+  "dependencies": {
+    "cypress": "^3.8.2"
+  }
+}
